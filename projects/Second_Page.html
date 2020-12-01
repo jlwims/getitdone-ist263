@@ -6,7 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel='stylesheet' type="text/css" href="Overall.css"> <!-- Style CSS-->
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="
+    https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css
+    ">
+ 
+    <!-- jQuery library -->
+    <script src="
+    https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+    "></script>
+ 
+    <!-- Latest compiled JavaScript -->
+    <script src="
+    https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js
+     ">
+    </script>
 
+    <script type="javascript">
+        $('.carousel').carousel();
+    </script>
+        
+    
     <title>TRANSFROMATION TRANSLATION</title>
     <head>
     <style>
@@ -35,19 +55,19 @@
         
         #upperbody {
             margin: 2em;
-            color: blueviolet
+            color: #222222;
         }
 
         #abdominals {
             margin: 2em;
-            color: black
+            color: #222222;
         }
 
         #lowerbody {
             margin: 2em;
-            color:blueviolet
+            color: #222222;
         }
-        
+
     </style>
     </head>
 
@@ -57,7 +77,22 @@
 
  <!-- 3 page layout format, edit you own info for this portion-->
     
-        <div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Muscle Guide</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active">
+            <li><a href="#upperbody">Uppder Body</a></li>
+            <li><a href="#abdominals"> Abdominals </a></li>
+            <li><a href="#lowerbody">Lower Body</a></li>
+        </ul>
+        </div>
+    </nav>
+
+
+ <!-- <div>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item">
                     <a class="nav-link active" id="upper-tab" data-toggle="tab" href="#upperbody" role="tab" aria-controls="upperbody" aria-selected="true">Upper Body</a>
@@ -74,35 +109,36 @@
                     <div class="tab-pane fade" id="abdominals" role="tabpanel" aria-labelledby="abdominals-tab"></div>
                     <div class="tab-pane fade" id="lowerbody" role="tabpanel" aria-labelledby="lowerbody-tab"></div>
           </div>
-          
         </div>
+
+    -->
     
 <!-- Ends here-->
 
 
         <!-- <section class = "row" id="Page-center">
-        <div class="col">
+        <div class="col-sm-10">
         <h2 class="padded"> Upper Body</h2>
         <section class="row grid-row">
-        <div class="col">
+        <div class="col-sm-10">
             <div>
                 <img src="Images/pike_p's.jpg" alt="grid image"/>
                   
             </div>
             <section class = "row" id="page-right">
-                <div class="col">
+                <div class="col-sm-10">
                     <section class="row grid-row">
-                    <div class="col">
+                    <div class="col-sm-10">
                         <div>
                             <img src="Images/Decline P's.jpg" alt="grid image" width 700px height= 300px/>
                         </div> -->
-
-
+                    
+                        
     <!-- Upperbody row pics-->
     <aside class="row" id="upperbody">
-        <div class="col">
-            <h3> Pike Pushups</h3>
+        <div class="col-sm-10"> 
             <img src="Images/pike_p's.jpg" alt="upperbody" width="400px" height="400px">
+            <h3> Pike Pushups</h3>
             <p style= "margin: 0em .5em;"> 
                <li>
                 Assume a pushup position on the floor. Your arms should be straight and your hands should be shoulder-width apart.
@@ -120,9 +156,9 @@
             </p>
         </div>
         <br>
-        <div class="col">
-            <h3> Elevated Pushups</h3>
+        <div class="col-sm-10">
             <img src="Images/Decline P's.jpg" alt="upperbody" width="400px" height="400px"/>
+            <h3> Elevated Pushups</h3>
             <P style= "margin: 0em .5em;">
                 <li>
                     Lie on the floor face down and place your hands about 36 inches <br> apart from each other holding your torso up at arms length.
@@ -141,9 +177,11 @@
                 </li>
             </P>
         </div>
-        <div class="col">
-            <h3> Shoulder Taps</h3>
+    </aside>
+    <aside class="row" id="upperbody">
+        <div class="col-sm-10">
             <img src="Images/Shoulder_Taps .png" alt="upperbody" width="400px" height="400px"/>
+            <h3> Shoulder Taps</h3>
             <p style= "margin: 0em .5em;">
                 <li>
                     Doing a shoulder tap the right way requires you to engage several muscles simultaneously—your abs, back, chest, and arms.
@@ -153,9 +191,9 @@
                 </li>
             </p>
         </div>
-        <div class="col">
-            <h3> Plank Tri-ups</h3>
+        <div class="col-sm-10">
             <img src="Images/plank_tri_ups .png" alt="upperbody" width="400px" height="400px"/>
+            <h3> Plank Tri-ups</h3>
             <p  style= "margin: 0em .5em;">
                 <li>
                     Get into pushup position and bend your elbows so your forearms rest on the floor (a plank position)
@@ -173,26 +211,28 @@
         </div> 
     </aside>
 
-    <!-- Labels above abdominal exercies-->
+    <!-- Labels above abdominal exercies
         <div class = "row">
-            <div class = "col">
+            <div class = "col-sm-10">
                 <h3>Alternate Heel Taps</h3>
             </div>
-            <div class = "col">  
+            <div class = "col-sm-10">  
               <h3>Roll Over Crunches</h3>  
             </div>
-            <div class = "col">  
-                <h3>Side Jacknife</h3>  
+            <div class = "col-sm-10">  
+                <h3>Side Jacknives</h3>  
               </div>
-              <div class = "col">  
+              <div class = "col-sm-10">  
                 <h3>Tuck Jumps</h3>  
               </div>
-        </div>
-    
+        </div> 
+    -->
+
     <!--abdominal row pics-->
     <aside class ="row" id="abdominals">
-        <div class="col">
+        <div class="col-sm-10">
             <img src="Images/alternate-heel-taps.jpg" alt="abdominals" width="400px" height="400px">
+            <h3>Alternate Heel Taps</h3>
             <p style= "margin: 0em .5em;">
                 <li>
                     Lie on the floor with the knees bent and the feet on the floor around 18-24 inches apart. Your arms should be extended by your side. This will be your starting position.
@@ -211,8 +251,9 @@
                 </li>
             </p>
         </div>
-        <div class="col">
+        <div class="col-sm-10">
             <img src="Images/Screen Shot 2020-11-01 at 11.00.50 PM.png" alt="abdominals" width="400px" height="400px">
+            <h3>Roll Over Crunches</h3>
             <P style= "margin: 0em .5em;">
                 <li>
                     Lie flat on your back with your feet flat on the ground, or resting on a bench with your knees bent at a 90 degree angle. If you are resting your feet on a bench, place them three to four inches apart and point your toes inward so they touch.
@@ -231,8 +272,11 @@
                 </li>
             </P>
         </div>
-        <div class="col">
+    </aside>
+    <aside class ="row" id="abdominals">
+        <div class="col-sm-10">
             <img src="Images/sidejackknives.png" alt="abdominals" width="400px" height="400px">
+            <h3>Side Jacknives</h3>
             <p style = "margin: 0em .5em;">
                 <li>
                     Lying on your right side and keeping your left leg over your right one, place your right hand in a comfortable spot and clasp your left hand behind your head.
@@ -242,8 +286,9 @@
                 </li>
             </p>
         </div>
-        <div class="col">
+        <div class="col-sm-10">
             <img src="Images/tuckjumps.jpg" alt="abdominals" width="400px" height="400px">
+            <h3>Tuck Jumps</h3>
             <p style = "margin: 0em .5em;">
                 <li>
                     Begin in a comfortable standing position with your knees slightly bent. Hold your hands in front of you, palms down with your fingertips together at chest height. This will be your starting position.
@@ -258,25 +303,28 @@
         </div>      
     </aside>
 
-     <!-- Labels above lowerbody exercies-->
+     <!-- Labels above lowerbody exercies
         <div class = "row">
-            <div class = "col">
+            <div class = "col-sm-10">
                 <h3>Bodyweight Squat</h3>
             </div>
-            <div class = "col">  
+            <div class = "col-sm-10">  
             <h3>Reverse Lunge</h3>  
             </div>
-            <div class = "col">  
+            <div class = "col-sm-10">  
                 <h3>Side to Side Lunge</h3>  
             </div>
-            <div class = "col">  
+            <div class = "col-sm-10">  
                 <h3>Low Cossack Lunge</h3>  
             </div>
-        </div>
+        </div> 
+        -->
     <!--lowerbody-->
-    <aside class ="row" id="lowerbody">
-        <div class="col">
+    <a id="lowerbody">
+    <aside class ="row" id="lowerbody"></a>
+        <div class="col-sm-10">
             <img src="Images/body-weight-squats-1.jpg" alt="lowerbody" width="400px" height="400px">
+            <h3>Bodyweight Squat</h3>
             <p style = "margin: 0em .5em;">
                 <li>
                     Stand with your feet shoulder width apart. You can place your hands straight in front of you. This will be your starting position.
@@ -289,8 +337,9 @@
                 </li>
             </p>
         </div>
-        <div class="col">
+        <div class="col-sm-10">
             <img src="Images/Reverse Lunge .webp" alt="lowerbody" width="400px" height="400px">
+            <h3>Reverse Lunge</h3>
             <p style = "margin: 0em .5em;">
                 <li>
                     Stand with your torso upright with your hands by your sides. This will be your starting position.
@@ -306,8 +355,11 @@
                 </li>
             </p>
         </div>
-        <div class="col">
+    </aside>
+    <aside class ="row" id="lowerbody"></a>
+        <div class="col-sm-10">
             <img src="Images/side to side lunge.webp" alt="lowerbody" width="400px" height="400px">
+            <h3>Side to Side Lunge</h3>
             <p style = "margin: 0em .5em;">
                 <li>
                     Stand in an athletic position, with the knees and hips slightly bent, feet shoulder-width apart, and the head and chest up. This will be your starting position.
@@ -321,8 +373,9 @@
 
             </p>
         </div>
-        <div class="col">
+        <div class="col-sm-10">
             <img src="Images/low cossack lunge.png" alt="lowerbody" width="400px" height="400px">
+            <h3>Low Cossack Lunge</h3>
             <P style = "margin: 0em .5em;">
                 <li>
                     Take a wider than shoulder width stance, and turn one foot out to the side with the toe off the floor. Keep that knee straight, and squat to your other leg, trying to keep both heels on the ground and keeping your spine as straight and tall as possible. Lower as deep as comfortable or until you have to start rounding your spine to get any lower.
@@ -338,17 +391,19 @@
 
     <footer>
         <div class = "row">
-            <div class ="col">
+            <div class ="col-sm-10">
                 <div class = "shadow">
                 Contact me by email: jlwims@syr.edu
                 </div>
                 
             <div class="row">
-                <div class ="col">
+                <div class ="col-sm-10">
                     <ul>
-                        <a href = "file:///Users/lavaughn/Downloads/IST263%20VS%20Code/IST263%20Projects%20/Project_Deilverable8.html"> Home Page</a> 
+                        <a href = "file:///Users/lavaughn/Downloads/IST263%20VS%20Code/IST263%20Projects%20/Deliverables%20/Project_Deilverable8_bootstrap.html"> Home Page</a> 
                         <br>
-                        <a href = "file:///Users/lavaughn/Downloads/IST263%20VS%20Code/IST263%20Projects%20/Second_Page.html#upperbody"> Musle Guide</a>
+                        <a href = "file:///Users/lavaughn/Downloads/IST263%20VS%20Code/IST263%20Projects%20/Deliverables%20/Second_Page.html"> Muscle Guide</a>
+                        <br>
+                        <a href = "file:///Users/lavaughn/Downloads/IST263%20VS%20Code/IST263%20Projects%20/Deliverables%20/Exercise_Table.html"> Workout Checklist</a>
                     </ul>
                 </div>  
             </div>
